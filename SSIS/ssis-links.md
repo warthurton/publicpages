@@ -13,6 +13,7 @@
 
 * SSIS+ 1.8 Readme <http://www.cozyroc.com/ssis/readme-18>
 * SSIS+ 1.9 Readme <http://www.cozyroc.com/ssis/readme-19>
+* Compatability <http://cozyroc.com/products/#block-block-57>
 
 ### Discussion
 

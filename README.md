@@ -1,16 +1,16 @@
 
-## Categories
+# Categories
 
 * [SSIS](#SSIS)
 * [Windows](#Windows)
 
 ---
 
-### SSIS
+## SSIS
 
 * [SSIS (and SQL Server) documentation and links](SSIS/ssis-links.md)
 
-### Windows
+## Windows
 
 * [Windows Automation documentation and links](Windows/win-automation-links.md)
 

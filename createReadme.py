@@ -85,7 +85,7 @@ def print_file(category_names, count, categories):
         # file_.write('_{0} TILs and counting..._'.format(count))
         # file_.write('\n')
         file_.write('''
-## Categories
+# Categories
 
 ''')
         # print the list of categories with links
@@ -100,7 +100,7 @@ def print_file(category_names, count, categories):
 ''')
         for category in sorted(category_names):
             # file_.write('### {0}\n'.format(category.capitalize()))
-            file_.write('### {0}\n'.format(category))
+            file_.write('## {0}\n'.format(category))
             file_.write('\n')
             tils = categories[category]
             for (title, filename) in sorted(tils):
