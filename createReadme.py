@@ -80,13 +80,11 @@ def get_category_dict(category_names):
 def print_file(category_names, count, categories):
     ''' Now we have all the information, print it out in markdown format. '''
     with open('README.md', 'w') as file_:
-        file_.write(HEADER)
-        file_.write('\n')
-        file_.write('_{0} TILs and counting..._'.format(count))
-        file_.write('\n')
+        # file_.write(HEADER)
+        # file_.write('\n')
+        # file_.write('_{0} TILs and counting..._'.format(count))
+        # file_.write('\n')
         file_.write('''
----
-
 ## Categories
 
 ''')
@@ -106,7 +104,7 @@ def print_file(category_names, count, categories):
             file_.write('\n')
             tils = categories[category]
             for (title, filename) in sorted(tils):
-                file_.write('- [{0}]({1})\n'.format(title, filename))
+                file_.write('* [{0}]({1})\n'.format(title, filename))
             file_.write('\n')
 
         file_.write(FOOTER)

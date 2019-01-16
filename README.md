@@ -1,20 +1,18 @@
-# TIL
-
-> Today I Learned
-
-_1 TILs and counting..._
-
----
 
 ## Categories
 
 * [SSIS](#SSIS)
+* [Windows Automation](#Windows Automation)
 
 ---
 
 ### SSIS
 
-- [SSIS (and SQL Server) links](SSIS/ssis-links.md)
+* [SSIS (and SQL Server) links](SSIS/ssis-links.md)
+
+### Windows Automation
+
+* [Windows Automation Documentation and Links](Windows Automation/win-automation-links.md)
 
 ## About
 
