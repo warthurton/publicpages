@@ -3,12 +3,7 @@
 > Today I Learned
 
 A collection of concise write-ups on small things I learn day to day across a
-variety of languages and technologies. These are things that don't really
-warrant a full blog post. These are mostly things I learn by pairing with
-smart people at [Hashrocket](http://hashrocket.com/).
-
-For a steady stream of TILs from a variety of rocketeers, checkout
-[til.hashrocket.com](https://til.hashrocket.com/).
+variety of languages and technologies.
 
 _1 TILs and counting..._
 
@@ -16,11 +11,11 @@ _1 TILs and counting..._
 
 ### Categories
 
-* [Ssis](#SSIS)
+* [SSIS](#SSIS)
 
 ---
 
-### Ssis
+### SSIS
 
 - [SSIS (and SQL Server) links](SSIS/ssis-links.md)
 
@@ -44,13 +39,14 @@ I shamelessly stole this idea from
 
 ## Other TIL Collections
 
+* [jbranchaud/til](https://github.com/jbranchaud/til)
 * [Today I Learned by Hashrocket](https://til.hashrocket.com)
 * [jwworth/til](https://github.com/jwworth/til)
 * [thoughtbot/til](https://github.com/thoughtbot/til)
 
 ## License
 
-&copy; 2015-2017 Josh Branchaud
+&copy; 2019 Wayne Arthurton
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
