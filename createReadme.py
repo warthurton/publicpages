@@ -15,12 +15,7 @@ HEADER = '''# TIL
 > Today I Learned
 
 A collection of concise write-ups on small things I learn day to day across a
-variety of languages and technologies. These are things that don't really
-warrant a full blog post. These are mostly things I learn by pairing with
-smart people at [Hashrocket](http://hashrocket.com/).
-
-For a steady stream of TILs from a variety of rocketeers, checkout
-[til.hashrocket.com](https://til.hashrocket.com/).
+variety of languages and technologies.
 '''
 
 FOOTER = '''## Usage
@@ -43,13 +38,14 @@ I shamelessly stole this idea from
 
 ## Other TIL Collections
 
+* [jbranchaud/til](https://github.com/jbranchaud/til)
 * [Today I Learned by Hashrocket](https://til.hashrocket.com)
 * [jwworth/til](https://github.com/jwworth/til)
 * [thoughtbot/til](https://github.com/thoughtbot/til)
 
 ## License
 
-&copy; 2015-2017 Josh Branchaud
+&copy; 2019 Wayne Arthurton
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
@@ -112,16 +108,17 @@ def print_file(category_names, count, categories):
 ''')
         # print the list of categories with links
         for category in sorted(category_names):
-            file_.write('* [{0}](#{1})\n'.format(category.capitalize(),
-                                                 category))
-
+            # file_.write('* [{0}](#{1})\n'.format(category.capitalize(),
+            #                                      category))
+            file_.write('* [{0}](#{1})\n'.format(category, category))
         # print the section for each category
         file_.write('''
 ---
 
 ''')
         for category in sorted(category_names):
-            file_.write('### {0}\n'.format(category.capitalize()))
+            # file_.write('### {0}\n'.format(category.capitalize()))
+            file_.write('### {0}\n'.format(category))
             file_.write('\n')
             tils = categories[category]
             for (title, filename) in sorted(tils):
