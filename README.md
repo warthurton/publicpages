@@ -2,7 +2,7 @@
 ## Categories
 
 * [SSIS](#SSIS)
-* [Windows Automation](#Windows Automation)
+* [Windows](#Windows)
 
 ---
 
@@ -10,9 +10,9 @@
 
 * [SSIS (and SQL Server) links](SSIS/ssis-links.md)
 
-### Windows Automation
+### Windows
 
-* [Windows Automation Documentation and Links](Windows Automation/win-automation-links.md)
+* [Windows Automation Documentation and Links](Windows/win-automation-links.md)
 
 ## About
 
