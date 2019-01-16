@@ -8,16 +8,16 @@
 
 ### SSIS+ Documentation - <http://cozyroc.com/products>
 
-* Dynamic Data Flow - <http://cozyroc.com/ssis/dynamic-data-flow>
-* SSIS+ Script Task+ Scripts - <http://cozyroc.com/search-scripts> - This is public repository for SSIS scripts, samples, nuggets, snippets, code.
-* JavaScript - <http://cozyroc.com/ssis/javascript>
-* Velocity User Guide - <http://velocity.apache.org/engine/2.0/user-guide.html> - For Template Task and Component
+* Dynamic Data Flow - <https://cozyroc.com/ssis/dynamic-data-flow>
+* SSIS+ Script Task+ Scripts - <https://cozyroc.com/search-scripts> - This is public repository for SSIS scripts, samples, nuggets, snippets, code.
+* JavaScript - <https://cozyroc.com/ssis/javascript>
+* Velocity User Guide - <https://velocity.apache.org/engine/2.0/user-guide.html> - For Template Task and Component
 
 ### Releases - <http://www.cozyroc.com/ssis/releases>
 
-* SSIS+ 1.8 Readme - <http://www.cozyroc.com/ssis/readme-18>
-* SSIS+ 1.9 Readme - <http://www.cozyroc.com/ssis/readme-19>
-* Compatability - <http://cozyroc.com/products/#block-block-57>
+* SSIS+ 1.8 Readme - <https://www.cozyroc.com/ssis/readme-18>
+* SSIS+ 1.9 Readme - <https://www.cozyroc.com/ssis/readme-19>
+* Compatability - <https://cozyroc.com/products/#block-block-57>
 
 ### Discussion
 
