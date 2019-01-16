@@ -1,4 +1,4 @@
-# Windows Automation Documentation and Links
+# Windows Automation documentation and links
 
 Hidden Start - Run Applications and Batch Files without a Console Window or UAC Prompt - NTWind Software [https://www.ntwind.com/software/hstart.html]
 

@@ -1,4 +1,4 @@
-# SSIS (and SQL Server) links
+# SSIS (and SQL Server) documentation and links
 
 ## Cozyroc
 

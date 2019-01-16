@@ -8,11 +8,11 @@
 
 ### SSIS
 
-* [SSIS (and SQL Server) links](SSIS/ssis-links.md)
+* [SSIS (and SQL Server) documentation and links](SSIS/ssis-links.md)
 
 ### Windows
 
-* [Windows Automation Documentation and Links](Windows/win-automation-links.md)
+* [Windows Automation documentation and links](Windows/win-automation-links.md)
 
 ## About
 
