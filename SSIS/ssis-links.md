@@ -3,7 +3,7 @@
 ## SSIS
 
 * [SSIS Documentation](https://docs.microsoft.com/en-us/sql/integration-services/sql-server-integration-services)
-* SSDT ([Changelog](https://docs.microsoft.com/en-us/sql/ssdt/changelog-for-sql-server-data-tools-ssdt?view=sql-server-2017) [Current Version](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017) [Previous Versions](https://docs.microsoft.com/en-us/sql/ssdt/previous-releases-of-sql-server-data-tools-ssdt-and-ssdt-bi?view=sql-server-2017))
+* SSDT ([Changelog](https://docs.microsoft.com/en-us/sql/ssdt/changelog-for-sql-server-data-tools-ssdt?view=sql-server-2017), [Current Version](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017), [Previous Versions](https://docs.microsoft.com/en-us/sql/ssdt/previous-releases-of-sql-server-data-tools-ssdt-and-ssdt-bi?view=sql-server-2017))
 
 ## Cozyroc
 
@@ -16,7 +16,7 @@
 
 ### [Releases](http://www.cozyroc.com/ssis/releases)
 
-* SSIS+ Readme ([1.9](https://www.cozyroc.com/ssis/readme-19) [1.8](https://www.cozyroc.com/ssis/readme-18))
+* SSIS+ Readme ([1.9](https://www.cozyroc.com/ssis/readme-19), [1.8](https://www.cozyroc.com/ssis/readme-18))
 * [Compatability](https://cozyroc.com/products/#block-block-57)
 
 ### Discussion
