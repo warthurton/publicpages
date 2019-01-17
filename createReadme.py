@@ -40,7 +40,7 @@ def get_list_of_categories():
     ''' Walk the current directory and get a list of all subdirectories at that
     level.  These are the "categories" in which there are TILs.'''
     dirs = [x for x in os.listdir('.') if os.path.isdir(x) and
-            '.git' not in x]
+            not x.startswith('.')]
     return dirs
 
 
@@ -101,7 +101,7 @@ def print_file(category_names, count, categories):
         for category in sorted(category_names):
             # file_.write('### {0}\n'.format(category.capitalize()))
             file_.write('## {0}\n'.format(category))
-            file_.write('\n')
+            file_.write('\n**[`^        back to top        ^`](#)**\n\n')
             tils = categories[category]
             for (title, filename) in sorted(tils):
                 file_.write('* [{0}]({1})\n'.format(title, filename))

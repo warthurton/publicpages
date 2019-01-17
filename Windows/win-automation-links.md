@@ -3,11 +3,12 @@
 ## Scripting
 
 [AutoHotkey • Documentation](https://autohotkey.com/docs/AutoHotkey.htm)
+[ClipboardFusion • Advanced Settings](https://www.clipboardfusion.com/AdvancedSettings/)
 [ClipboardFusion • Script Documentation](https://www.clipboardfusion.com/Macros/Help/)
-[ClipboardFusion • ClipboardFusion Macros](https://www.clipboardfusion.com/Macros/)
+[ClipboardFusion • Scripted Functions (Macros)](https://www.clipboardfusion.com/Macros/)
 [DisplayFusion • Advanced Settings](https://www.displayfusion.com/AdvancedSettings/)
 [DisplayFusion • Script Documentation](https://www.displayfusion.com/ScriptedFunctions/Help/)
-[DisplayFusion • Scripted Functions(Macros)](https://www.displayfusion.com/ScriptedFunctions/)
+[DisplayFusion • Scripted Functions (Macros)](https://www.displayfusion.com/ScriptedFunctions/)
 
 ## Commands
 
