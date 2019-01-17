@@ -1,21 +1,20 @@
 
 # Categories
 
-* [.wiki](#.wiki)
 * [SSIS](#SSIS)
 * [Windows](#Windows)
 
 ---
 
-## .wiki
-
-* [None](.wiki/Home.md)
-
 ## SSIS
+
+**[`^        back to top        ^`](#)**
 
 * [SSIS (and SQL Server) documentation and links](SSIS/ssis-links.md)
 
 ## Windows
+
+**[`^        back to top        ^`](#)**
 
 * [Windows Automation documentation and links](Windows/win-automation-links.md)
 
