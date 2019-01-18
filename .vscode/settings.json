@@ -1,3 +1,5 @@
 {
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": false,
+    "markdown.extension.toc.githubCompatibility": true,
+    "markdown.extension.preview.autoShowPreviewToSide": true
 }
