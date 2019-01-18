@@ -33,4 +33,5 @@
 * [SQL Prompt 9 documentation](https://documentation.red-gate.com/sp9)
 * [dbatools](https://dbatools.io/commands/) - dbatools is a free PowerShell module with over 400 SQL Server best practice, administration, development and migration commands included.
 
-_[SSIS Pinboard Bookmarks](https://pinboard.in/u:warthurton/t:documentation/t:sqlserver/?sort=title)_
+----
+These links are collated from my _[SSIS Pinboard Bookmarks Collection](https://pinboard.in/u:warthurton/t:documentation/t:sqlserver/?sort=title)_

@@ -16,6 +16,7 @@ HEADER = '''# TIL
 '''
 
 FOOTER = '''## About
+[Github repository](https://github.com/warthurton/publicpages)
 
 Inspired by
 [thoughtbot/til](https://github.com/thoughtbot/til).

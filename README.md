@@ -1,10 +1,17 @@
 
 # Categories
 
+* [OneNote](#OneNote)
 * [SSIS](#SSIS)
 * [Windows](#Windows)
 
 ---
+
+## OneNote
+
+**[`^        back to top        ^`](#)**
+
+* [Add languages to NoteHighlight Plugin](OneNote/highlight-plugin.md)
 
 ## SSIS
 
@@ -19,6 +26,7 @@
 * [Windows Automation documentation and links](Windows/win-automation-links.md)
 
 ## About
+[Github repository](https://github.com/warthurton/publicpages)
 
 Inspired by
 [thoughtbot/til](https://github.com/thoughtbot/til).
