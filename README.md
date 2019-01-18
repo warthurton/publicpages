@@ -8,28 +8,21 @@
 ---
 
 ## OneNote
-
-**[`^        back to top        ^`](#)**
-
 * [Add languages to NoteHighlight Plugin](OneNote/highlight-plugin.md)
 
 ## SSIS
-
-**[`^        back to top        ^`](#)**
-
 * [SSIS (and SQL Server) documentation and links](SSIS/ssis-links.md)
 
 ## Windows
-
-**[`^        back to top        ^`](#)**
-
 * [Windows Automation documentation and links](Windows/win-automation-links.md)
 
 ## About
+
+This is my TIL collection.  (Today I learned)
+
 [Github repository](https://github.com/warthurton/publicpages)
 
-Inspired by
-[thoughtbot/til](https://github.com/thoughtbot/til).
+Inspired by [thoughtbot/til](https://github.com/thoughtbot/til).
 
 ## Other TIL Collections
 

@@ -16,10 +16,12 @@ HEADER = '''# TIL
 '''
 
 FOOTER = '''## About
+
+This is my TIL collection.  (Today I learned)
+
 [Github repository](https://github.com/warthurton/publicpages)
 
-Inspired by
-[thoughtbot/til](https://github.com/thoughtbot/til).
+Inspired by [thoughtbot/til](https://github.com/thoughtbot/til).
 
 ## Other TIL Collections
 
@@ -102,7 +104,7 @@ def print_file(category_names, count, categories):
         for category in sorted(category_names):
             # file_.write('### {0}\n'.format(category.capitalize()))
             file_.write('## {0}\n'.format(category))
-            file_.write('\n**[`^        back to top        ^`](#)**\n\n')
+            # file_.write('\n**[`^        back to top        ^`](#categories)**\n\n')
             tils = categories[category]
             for (title, filename) in sorted(tils):
                 file_.write('* [{0}]({1})\n'.format(title, filename))
