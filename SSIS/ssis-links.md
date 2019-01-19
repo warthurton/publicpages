@@ -7,14 +7,18 @@
 
 ## Cozyroc
 
-### [SSIS+ Documentation](http://cozyroc.com/products)
+### SSIS+
 
-* [Dynamic Data Flow](https://cozyroc.com/ssis/dynamic-data-flow)
-* [SSIS+ Script Task+ Scripts](https://cozyroc.com/search-scripts) - This is public repository for SSIS scripts, samples, nuggets, snippets, code.
-* [JavaScript](https://cozyroc.com/ssis/javascript)
+* [SSIS+ Documentation](http://cozyroc.com/products)
+* [Dynamic Data Flows](https://cozyroc.com/ssis/dynamic-data-flow)
+* [Script Task+](https://cozyroc.com/ssis/script-task-plus) & [Script Component+](https://cozyroc.com/ssis/script-component-plus) Documentation
+* Script Task+ & Script Component+ [Script Library](https://cozyroc.com/search-scripts) - This is a public repository for SSIS scripts, samples, nuggets, snippets, code.
+* [SSIS+ Javascript Documentation](https://cozyroc.com/ssis/javascript)
 * [Velocity User Guide](https://velocity.apache.org/engine/2.0/user-guide.html) - For Template Task and Component
 
-### [Releases](http://www.cozyroc.com/ssis/releases)
+### Releases
+
+[Source Link](https://www.cozyroc.com/ssis/releases)
 
 * SSIS+ Readme ([1.9](https://www.cozyroc.com/ssis/readme-19), [1.8](https://www.cozyroc.com/ssis/readme-18))
 * [Compatability](https://cozyroc.com/products/#block-block-57)
@@ -31,7 +35,7 @@
 ## Misc
 
 * [SQL Prompt 9 documentation](https://documentation.red-gate.com/sp9)
-* [dbatools](https://dbatools.io/commands/) - dbatools is a free PowerShell module with over 400 SQL Server best practice, administration, development and migration commands included.
+* [dbatools](https://dbatools.io/commands/) - PowerShell module with over 400 SQL Server best practice, administration, development and migration commands
 
 ----
 These links are collated from my _[SSIS Pinboard Bookmarks Collection](https://pinboard.in/u:warthurton/t:documentation/t:sqlserver/?sort=title)_
