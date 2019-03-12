@@ -16,6 +16,10 @@
 * [NirCmd Reference](https://nircmd.nirsoft.net/)
 * [FastCopy Help](https://ipmsg.org/help/fastcopy_eng.htm)
 
+## Utilities
+
+* [NetSeMan](https://www.netsetman.com/en/help?hf=en) - Network Manager
+
 ## Shortcuts
 
 * [Windows Keyboard Shortcuts](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts)
