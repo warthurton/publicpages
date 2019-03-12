@@ -19,6 +19,7 @@
 ## Utilities
 
 * [NetSeMan](https://www.netsetman.com/en/help?hf=en) - Network Manager
+* [USB Safely Remove](http://safelyremove.com/help/index.htm) - USB Trigger App
 
 ## Shortcuts
 
