@@ -8,13 +8,15 @@
 ---
 
 ## OneNote
-* [Add languages to NoteHighlight Plugin](OneNote/highlight-plugin.md)
+* [Add languages to NoteHighlight Plugin](OneNote\highlight-plugin.md)
 
 ## SSIS
-* [SSIS (and SQL Server) documentation and links](SSIS/ssis-links.md)
+* [SSIS (and SQL Server) documentation and links](SSIS\ssis-links.md)
+* [SSIS Expressions](SSIS\ssis-expressions.md)
 
 ## Windows
-* [Windows Automation documentation and links](Windows/win-automation-links.md)
+* [Stardock Multiplicity](Windows\stardock-multiplicity.md)
+* [Windows Automation documentation and links](Windows\win-automation-links.md)
 
 ## About
 
@@ -30,6 +32,7 @@ Inspired by [thoughtbot/til](https://github.com/thoughtbot/til).
 * [Today I Learned by Hashrocket](https://til.hashrocket.com)
 * [jwworth/til](https://github.com/jwworth/til)
 * [thoughtbot/til](https://github.com/thoughtbot/til)
+* [secretgeek/til](https://github.com/secretGeek/til)
 
 ## License
 
