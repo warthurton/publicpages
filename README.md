@@ -8,15 +8,15 @@
 ---
 
 ## OneNote
-* [Add languages to NoteHighlight Plugin](OneNote\highlight-plugin.md)
+* [Add languages to NoteHighlight Plugin](OneNote\highlight-plugin)
 
 ## SSIS
-* [SSIS (and SQL Server) documentation and links](SSIS\ssis-links.md)
-* [SSIS Expressions](SSIS\ssis-expressions.md)
+* [SSIS (and SQL Server) documentation and links](SSIS\ssis-links)
+* [SSIS Expressions](SSIS\ssis-expressions)
 
 ## Windows
-* [Stardock Multiplicity](Windows\stardock-multiplicity.md)
-* [Windows Automation documentation and links](Windows\win-automation-links.md)
+* [Stardock Multiplicity](Windows\stardock-multiplicity)
+* [Windows Automation documentation and links](Windows\win-automation-links)
 
 ## About
 

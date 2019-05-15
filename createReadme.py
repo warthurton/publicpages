@@ -67,7 +67,7 @@ def get_tils(category):
         fullname = os.path.join(category, filename)
         if (os.path.isfile(fullname)) and fullname.endswith('.md'):
             title = get_title(fullname)
-            titles.append((title, fullname))
+            titles.append((title, fullname.replace(".md","")))
     return titles
 
 
