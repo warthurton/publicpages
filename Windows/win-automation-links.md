@@ -2,7 +2,7 @@
 
 ## Scripting
 
-* [AutoHotkey • Documentation](https://autohotkey.com/docs/AutoHotkey.htm)
+* [AutoHotkey • Documentation](https://autohotkey.com/docs/AutoHotkey.htm) ([Keys](https://www.autohotkey.com/docs/commands/Send.htm))
 * [ClipboardFusion • Advanced Settings](https://www.clipboardfusion.com/AdvancedSettings/)
 * [ClipboardFusion • Script Documentation](https://www.clipboardfusion.com/Macros/Help/)
 * [ClipboardFusion • Scripted Functions (Macros)](https://www.clipboardfusion.com/Macros/)
