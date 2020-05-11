@@ -2,5 +2,18 @@
     "python.linting.pylintEnabled": false,
     "markdown.extension.toc.githubCompatibility": true,
     "markdown.extension.preview.autoShowPreviewToSide": true,
-    "python.pythonPath": "C:\\ProgramData\\scoop\\apps\\python\\3.7.2\\python.exe"
+    "python.pythonPath": "C:\\ProgramData\\scoop\\apps\\python\\3.7.2\\python.exe",
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#663399",
+        "titleBar.inactiveBackground": "#66339999",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#663399",
+        "statusBarItem.hoverBackground": "#7f40bf",
+        "statusBar.foreground": "#e7e7e7",
+        "tab.activeBorder": "#7f40bf",
+        "statusBar.border": "#663399",
+        "titleBar.border": "#663399"
+    },
+    "peacock.color": "#639"
 }
