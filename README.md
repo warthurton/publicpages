@@ -2,21 +2,26 @@
 # Categories
 
 * [OneNote](#OneNote)
+* [SSAS](#SSAS)
 * [SSIS](#SSIS)
 * [Windows](#Windows)
 
 ---
 
 ## OneNote
-* [Add languages to NoteHighlight Plugin](OneNote\highlight-plugin)
+* [Add languages to NoteHighlight Plugin](OneNote/highlight-plugin)
+
+## SSAS
+* [SSAS (and SQL Server) documentation and links](SSAS/ssas-links)
 
 ## SSIS
-* [SSIS (and SQL Server) documentation and links](SSIS\ssis-links)
-* [SSIS Expressions](SSIS\ssis-expressions)
+* [SSIS (and SQL Server) documentation and links](SSIS/ssis-links)
+* [SSIS Expressions](SSIS/ssis-expressions)
 
 ## Windows
-* [Stardock Multiplicity](Windows\stardock-multiplicity)
-* [Windows Automation documentation and links](Windows\win-automation-links)
+* [Change Network Type in Windows 10 (Private/Public)](Windows/ChangeNetworkTypePrivatePublic)
+* [Stardock Multiplicity](Windows/stardock-multiplicity)
+* [Windows Automation documentation and links](Windows/win-automation-links)
 
 ## About
 
@@ -36,7 +41,7 @@ Inspired by [thoughtbot/til](https://github.com/thoughtbot/til).
 
 ## License
 
-&copy; 2019 Wayne Arthurton
+&copy; 2020 Wayne Arthurton
 
 This repository is licensed under the MIT license. See [`LICENSE`](LICENSE.txt) for
 details.
