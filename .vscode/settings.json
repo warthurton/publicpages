@@ -2,7 +2,7 @@
     "python.linting.pylintEnabled": false,
     "markdown.extension.toc.githubCompatibility": true,
     "markdown.extension.preview.autoShowPreviewToSide": true,
-    "python.pythonPath": "C:\\ProgramData\\scoop\\apps\\python\\3.7.2\\python.exe",
+    "python.pythonPath": "/usr/local/bin/python3",
     "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#663399",
         "titleBar.inactiveBackground": "#66339999",

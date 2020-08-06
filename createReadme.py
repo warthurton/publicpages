@@ -33,7 +33,7 @@ Inspired by [thoughtbot/til](https://github.com/thoughtbot/til).
 
 ## License
 
-&copy; 2019 Wayne Arthurton
+&copy; 2020 Wayne Arthurton
 
 This repository is licensed under the MIT license. See [`LICENSE`](LICENSE.txt) for
 details.

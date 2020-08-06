@@ -19,7 +19,7 @@
 * [SSIS Expressions](SSIS/ssis-expressions)
 
 ## Windows
-* [Change Network Type in Windows 10 (Private/Public)](Windows/ChangeNetworkTypePrivatePublic)
+* [Change Network Type in Windows 10 (Private/Public)](Windows/change-network-type-private-public)
 * [Stardock Multiplicity](Windows/stardock-multiplicity)
 * [Windows Automation documentation and links](Windows/win-automation-links)
 
