@@ -13,7 +13,7 @@
 ## Commands
 
 * [Hidden Start](https://images.ntwind.com/hstart/hstart_v43.png)
-* [NirCmd Reference](https://nircmd.nirsoft.net/)
+* [NirCmd Reference](https://nircmd.nirsoft.net/) [NirCmd Examples/Changelog](https://www.nirsoft.net/utils/nircmd.html)
 * [FastCopy Help](https://ipmsg.org/help/fastcopy_eng.htm)
 
 ## Utilities
