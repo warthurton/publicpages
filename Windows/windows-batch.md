@@ -1,4 +1,4 @@
-# Windows Batch File Tips
+# Batch File Tips
 
 ## Redirect Operators
 [Microsoft Docs | Command redirection operators](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490982(v=technet.10)) (_[Wayback](https://web.archive.org/web/20201127015722/https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-xp/bb490982(v=technet.10))_)

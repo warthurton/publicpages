@@ -1,4 +1,4 @@
-# Windows Automation documentation and links
+# Automation documentation and links
 ## Scripting
 
 * [AutoHotkey • Documentation](https://autohotkey.com/docs/AutoHotkey.htm) ([Keys](https://www.autohotkey.com/docs/commands/Send.htm))
