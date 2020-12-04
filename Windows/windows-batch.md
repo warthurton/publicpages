@@ -14,7 +14,7 @@ Operator | Description
 
 ## Redirect Handles
 Handle | Numeric | Description
----|---|---
+--- | --- | ---
 STDIN | 0 | Keyboard input
 STDOUT | 1 | Output to the Command Prompt window
 STDERR | 2 | Error output to the Command Prompt window
