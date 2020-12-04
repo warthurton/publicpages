@@ -9,19 +9,20 @@
 ---
 
 ## OneNote
-* [Add languages to NoteHighlight Plugin](OneNote/highlight-plugin)
+* [Add languages to NoteHighlight Plugin](OneNote\highlight-plugin)
 
 ## SSAS
-* [SSAS (and SQL Server) documentation and links](SSAS/ssas-links)
+* [SSAS (and SQL Server) documentation and links](SSAS\ssas-links)
 
 ## SSIS
-* [SSIS (and SQL Server) documentation and links](SSIS/ssis-links)
-* [SSIS Expressions](SSIS/ssis-expressions)
+* [SSIS (and SQL Server) documentation and links](SSIS\ssis-links)
+* [SSIS Expressions](SSIS\ssis-expressions)
 
 ## Windows
-* [Change Network Type in Windows 10 (Private/Public)](Windows/change-network-type-private-public)
-* [Stardock Multiplicity](Windows/stardock-multiplicity)
-* [Windows Automation documentation and links](Windows/win-automation-links)
+* [Change Network Type in Windows 10 (Private/Public)](Windows\change-network-type-private-public)
+* [Stardock Multiplicity](Windows\stardock-multiplicity)
+* [Windows Automation documentation and links](Windows\win-automation-links)
+* [Windows Batch File Tips](Windows\windows-batch)
 
 ## About
 

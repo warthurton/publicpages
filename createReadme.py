@@ -52,7 +52,7 @@ def get_title(til_file):
     ''' Read the file until we hit the first line that starts with a #
     indicating a title in markdown.  We'll use that as the title for this
     entry. '''
-    with open(til_file) as _file:
+    with open(til_file, encoding='utf-8') as _file:
         for line in _file:
             line = line.strip()
             if line.startswith('#'):
