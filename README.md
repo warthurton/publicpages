@@ -19,10 +19,10 @@
 * [SSIS Expressions](SSIS\ssis-expressions)
 
 ## Windows
+* [Automation documentation and links](Windows\win-automation-links)
+* [Batch File Tips](Windows\windows-batch)
 * [Change Network Type in Windows 10 (Private/Public)](Windows\change-network-type-private-public)
 * [Stardock Multiplicity](Windows\stardock-multiplicity)
-* [Windows Automation documentation and links](Windows\win-automation-links)
-* [Windows Batch File Tips](Windows\windows-batch)
 
 ## About
 
@@ -34,11 +34,11 @@ Inspired by [thoughtbot/til](https://github.com/thoughtbot/til).
 
 ## Other TIL Collections
 
+* [secretgeek/til](https://github.com/secretGeek/til)
 * [jbranchaud/til](https://github.com/jbranchaud/til)
 * [Today I Learned by Hashrocket](https://til.hashrocket.com)
 * [jwworth/til](https://github.com/jwworth/til)
 * [thoughtbot/til](https://github.com/thoughtbot/til)
-* [secretgeek/til](https://github.com/secretGeek/til)
 
 ## License
 
