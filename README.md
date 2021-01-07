@@ -5,6 +5,7 @@
 * [SSAS](#SSAS)
 * [SSIS](#SSIS)
 * [Windows](#Windows)
+* [iPhone](#iPhone)
 
 ---
 
@@ -23,6 +24,9 @@
 * [Batch File Tips](Windows\windows-batch)
 * [Change Network Type in Windows 10 (Private/Public)](Windows\change-network-type-private-public)
 * [Stardock Multiplicity](Windows\stardock-multiplicity)
+
+## iPhone
+* [Disable notifications for iOS Shortcuts](iPhone/disable-shortcut-notifications)
 
 ## About
 
