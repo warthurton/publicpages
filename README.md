@@ -5,28 +5,28 @@
 * [SSAS](#SSAS)
 * [SSIS](#SSIS)
 * [Windows](#Windows)
-* [iPhone](#iPhone)
+* [iOS](#iOS)
 
 ---
 
 ## OneNote
-* [Add languages to NoteHighlight Plugin](OneNote\highlight-plugin)
+* [Add languages to NoteHighlight Plugin](OneNote/highlight-plugin)
 
 ## SSAS
-* [SSAS (and SQL Server) documentation and links](SSAS\ssas-links)
+* [SSAS (and SQL Server) documentation and links](SSAS/ssas-links)
 
 ## SSIS
-* [SSIS (and SQL Server) documentation and links](SSIS\ssis-links)
-* [SSIS Expressions](SSIS\ssis-expressions)
+* [SSIS (and SQL Server) documentation and links](SSIS/ssis-links)
+* [SSIS Expressions](SSIS/ssis-expressions)
 
 ## Windows
-* [Automation documentation and links](Windows\win-automation-links)
-* [Batch File Tips](Windows\windows-batch)
-* [Change Network Type in Windows 10 (Private/Public)](Windows\change-network-type-private-public)
-* [Stardock Multiplicity](Windows\stardock-multiplicity)
+* [Automation documentation and links](Windows/win-automation-links)
+* [Batch File Tips](Windows/windows-batch)
+* [Change Network Type in Windows 10 (Private/Public)](Windows/change-network-type-private-public)
+* [Stardock Multiplicity](Windows/stardock-multiplicity)
 
-## iPhone
-* [Disable notifications for iOS Shortcuts](iPhone/disable-shortcut-notifications)
+## iOS
+* [Disable notifications for iOS Shortcuts](iOS/disable-shortcut-notifications)
 
 ## About
 
