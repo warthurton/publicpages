@@ -1,66 +1,41 @@
-#!/usr/bin/env python
-''' Simple script to auto-generate the README.md file for a til project.
-    NOTE: Someone who wanted to be fancy would actually use a template engine
-    for this, but this seemed like a task for which it is best to only require
-    python.  This is not a general purpose script, but tailored for the format
-    being used for "Today I Learned" repos.
-    Apply as a git hook by running the following command in linux:
-        cd .git/hooks/ && ln -s ../../createReadme.py pre-commit && cd -
-'''
-from __future__ import print_function
+#!/usr/bin/env python3
+"""
+Simple script to auto-generate the README.md file for a til project.
+NOTE: Someone who wanted to be fancy would actually use a template engine
+for this, but this seemed like a task for which it is best to only require
+python.  This is not a general purpose script, but tailored for the format
+being used for "Today I Learned" repos.
+Apply as a git hook by running the following command in linux:
+    cd .git/hooks/ && ln -s ../../createReadme.py pre-commit && cd -
+"""
 import os
-
-HEADER = '''# TIL
-
-> Today I Learned
-'''
-
-FOOTER = '''## About
-
-This is my TIL collection.  (Today I learned)
-
-[Github repository](https://github.com/warthurton/publicpages)
-
-Inspired by [thoughtbot/til](https://github.com/thoughtbot/til).
-
-## Other TIL Collections
-
-* [secretgeek/til](https://github.com/secretGeek/til)
-* [jbranchaud/til](https://github.com/jbranchaud/til)
-* [Today I Learned by Hashrocket](https://til.hashrocket.com)
-* [jwworth/til](https://github.com/jwworth/til)
-* [thoughtbot/til](https://github.com/thoughtbot/til)
-
-## License
-
-&copy; 2020 Wayne Arthurton
-
-This repository is licensed under the MIT license. See [`LICENSE`](LICENSE.txt) for
-details.
-'''
-
+from time import gmtime, strftime
+from static_text import HEADER, FOOTER
 
 def get_list_of_categories():
-    ''' Walk the current directory and get a list of all subdirectories at that
-    level.  These are the "categories" in which there are TILs.'''
-    dirs = [x for x in os.listdir('.') if os.path.isdir(x) and
-            not x.startswith('.')]
+    """
+    Walk the current directory and get a list of all subdirectories at that
+    level.  These are the "categories" in which there are TILs.
+    """
+    dirs = [x for x in os.listdir('.') if os.path.isdir(x) and not x.startswith('.')]
     return dirs
 
-
 def get_title(til_file):
-    ''' Read the file until we hit the first line that starts with a #
+    """
+    Read the file until we hit the first line that starts with a #
     indicating a title in markdown.  We'll use that as the title for this
-    entry. '''
-    with open(til_file, encoding='utf-8') as _file:
+    entry.
+    """
+    with open(til_file, 'r') as _file:
         for line in _file:
             line = line.strip()
             if line.startswith('#'):
                 return line[1:].lstrip()  # text after # and whitespace
 
-
 def get_tils(category):
-    ''' For a given category, get the list of TIL titles. '''
+    """
+    For a given category, get the list of TIL titles.
+    """
     til_files = [x for x in os.listdir(category)]
     titles = []
     for filename in til_files:
@@ -69,7 +44,6 @@ def get_tils(category):
             title = get_title(fullname)
             titles.append((title, fullname.replace(".md","")))
     return titles
-
 
 def get_category_dict(category_names):
     categories = {}
@@ -82,20 +56,16 @@ def get_category_dict(category_names):
 
 
 def print_file(category_names, count, categories):
-    ''' Now we have all the information, print it out in markdown format. '''
+    """
+    Now we have all the information, print it out in markdown format.
+    """
     with open('README.md', 'w') as file_:
-        # file_.write(HEADER)
-        # file_.write('\n')
-        # file_.write('_{0} TILs and counting..._'.format(count))
-        # file_.write('\n')
         file_.write('''
 # Categories
 
 ''')
         # print the list of categories with links
         for category in sorted(category_names):
-            # file_.write('* [{0}](#{1})\n'.format(category.capitalize(),
-            #                                      category))
             file_.write('* [{0}](#{1})\n'.format(category, category))
         # print the section for each category
         file_.write('''
@@ -103,23 +73,31 @@ def print_file(category_names, count, categories):
 
 ''')
         for category in sorted(category_names):
-            # file_.write('### {0}\n'.format(category.capitalize()))
             file_.write('## {0}\n'.format(category))
-            # file_.write('\n**[`^        back to top        ^`](#categories)**\n\n')
             tils = categories[category]
             for (title, filename) in sorted(tils):
                 file_.write('* [{0}]({1})\n'.format(title, filename))
             file_.write('\n')
 
         file_.write(FOOTER)
+        file_.write('\n\n')
+        # add the line for current year as follows  &copy; 2020 Wayne Arthurton
+        file_.write('&copy; {0} Wayne Arthurton'.format(strftime("%Y", gmtime())))
 
+        file_.write('\n\n')
+        file_.write('_{0} TILs and counting..._'.format(count))
+                    
+    print('readme updated with {0} tils!'.format(count))   
 
 def create_readme():
-    ''' Create a TIL README.md file with a nice index for using it directly
-        from github. '''
+    """
+    Create a TIL README.md file with a nice index for using it directly
+    from github.
+    """
     category_names = get_list_of_categories()
     count, categories = get_category_dict(category_names)
     print_file(category_names, count, categories)
+
 
 if __name__ == '__main__':
     create_readme()

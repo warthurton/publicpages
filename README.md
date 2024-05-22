@@ -5,6 +5,7 @@
 * [SSAS](#SSAS)
 * [SSIS](#SSIS)
 * [Windows](#Windows)
+* [__pycache__](#__pycache__)
 * [iOS](#iOS)
 
 ---
@@ -24,6 +25,8 @@
 * [Batch File Tips](Windows/windows-batch)
 * [Change Network Type in Windows 10 (Private/Public)](Windows/change-network-type-private-public)
 * [Stardock Multiplicity](Windows/stardock-multiplicity)
+
+## __pycache__
 
 ## iOS
 * [Disable notifications for iOS Shortcuts](iOS/disable-shortcut-notifications)
@@ -46,7 +49,11 @@ Inspired by [thoughtbot/til](https://github.com/thoughtbot/til).
 
 ## License
 
-&copy; 2020 Wayne Arthurton
 
 This repository is licensed under the MIT license. See [`LICENSE`](LICENSE.txt) for
 details.
+
+
+&copy; 2024 Wayne Arthurton
+
+_9 TILs and counting..._
