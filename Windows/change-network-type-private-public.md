@@ -1,4 +1,4 @@
-# Change Network Type in Windows 10 (Private/Public)
+# Change Network Type in Windows 10/11 (Private/Public)
 
 Run the following PowerShell command:
 
