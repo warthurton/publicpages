@@ -1,0 +1,57 @@
+name: Update Publish Branch
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-publish:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Force update publish branch with main
+        run: |
+          # Fetch the publish branch if it exists
+          git fetch origin publish:publish 2>/dev/null || git branch publish
+          
+          # Reset publish branch to match main
+          git checkout publish
+          git reset --hard main
+      
+      - name: Run README generation script
+        run: |
+          python3 .scripts/createReadme.py
+      
+      - name: Commit changes to publish branch
+        run: |
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update README.md [skip ci]"
+          fi
+      
+      - name: Push to publish branch
+        run: |
+          git push -f origin publish

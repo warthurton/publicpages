@@ -1,14 +1,16 @@
 
 # Categories
 
+* [Hardware](#Hardware)
 * [OneNote](#OneNote)
 * [SSAS](#SSAS)
 * [SSIS](#SSIS)
 * [Windows](#Windows)
-* [__pycache__](#__pycache__)
 * [iOS](#iOS)
 
 ---
+
+## Hardware
 
 ## OneNote
 * [Add languages to NoteHighlight Plugin](OneNote/highlight-plugin)
@@ -25,8 +27,6 @@
 * [Batch File Tips](Windows/windows-batch)
 * [Change Network Type in Windows 10 (Private/Public)](Windows/change-network-type-private-public)
 * [Stardock Multiplicity](Windows/stardock-multiplicity)
-
-## __pycache__
 
 ## iOS
 * [Disable notifications for iOS Shortcuts](iOS/disable-shortcut-notifications)
@@ -54,6 +54,6 @@ This repository is licensed under the MIT license. See [`LICENSE`](LICENSE.txt) 
 details.
 
 
-&copy; 2024 Wayne Arthurton
+&copy; 2026 Wayne Arthurton
 
 _9 TILs and counting..._
