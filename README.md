@@ -1,6 +1,7 @@
 
 # Categories
 
+* [Hardware](#Hardware)
 * [OneNote](#OneNote)
 * [SSAS](#SSAS)
 * [SSIS](#SSIS)
@@ -9,6 +10,9 @@
 * [iOS](#iOS)
 
 ---
+
+## Hardware
+* [None](Hardware/Fujitsu-ScanSnap-Old-Software)
 
 ## OneNote
 * [Add languages to NoteHighlight Plugin](OneNote/highlight-plugin)
@@ -54,6 +58,6 @@ This repository is licensed under the MIT license. See [`LICENSE`](LICENSE.txt) 
 details.
 
 
-&copy; 2024 Wayne Arthurton
+&copy; 2026 Wayne Arthurton
 
-_9 TILs and counting..._
+_10 TILs and counting..._
