@@ -9,40 +9,69 @@ on:
 jobs:
   update-publish:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
-    
+
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
         with:
           ref: main
           fetch-depth: 0
-      
+
+      - name: Check changed files (skip only README.md or .vscode)
+        id: file_check
+        run: |
+          CHANGED=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+          echo "Changed files:"
+          echo "$CHANGED"
+          # Only README.md or .vscode (single or with each other)?
+          UNEXPECTED=$(echo "$CHANGED" | grep -vE '^(README\.md|\.vscode/.*)?$' | xargs)
+          if [[ -z "$UNEXPECTED" ]] && [[ -n "$CHANGED" ]]; then
+            echo "skip_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip_run=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stop job if only README.md or .vscode changed
+        if: steps.file_check.outputs.skip_run == 'true'
+        run: |
+          echo "Only README.md or .vscode changed, stopping workflow run."
+          exit 0
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      
+
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-      
+
+      - name: Fetch publish branch
+        run: |
+          git fetch origin publish:publish 2>/dev/null || git branch publish
+
+      - name: Backup publish/README.md before script
+        id: publish_readme
+        run: |
+          git checkout publish
+          if [[ -f README.md ]]; then
+            cp README.md ../publish_README_before.md
+          fi
+          git checkout main
+
       - name: Force update publish branch with main
         run: |
-          # Fetch the publish branch if it exists
-          git fetch origin publish:publish 2>/dev/null || git branch publish
-          
-          # Reset publish branch to match main
           git checkout publish
           git reset --hard main
-      
+
       - name: Run README generation script
         run: |
           python3 .scripts/createReadme.py
-      
+
       - name: Commit changes to publish branch
         run: |
           git add README.md
@@ -51,7 +80,39 @@ jobs:
           else
             git commit -m "Update README.md [skip ci]"
           fi
-      
+
       - name: Push to publish branch
         run: |
           git push -f origin publish
+
+      - name: Compare publish README with main and update main if needed
+        run: |
+          # Check if README in publish has changed compared to main after script runs
+          git checkout publish
+          cp README.md ../publish_README_after.md
+          git checkout main
+          if ! cmp -s ../publish_README_after.md README.md; then
+            echo "Updating main branch with updated README.md"
+            cp ../publish_README_after.md README.md
+            git add README.md
+            if git diff --staged --quiet; then
+              echo "No difference to commit to main."
+            else
+              git commit -m "Sync README.md from publish [skip ci]"
+              git push origin main
+            fi
+          else
+            echo "README.md in main and publish are identical, no update needed."
+          fi
+
+      - name: SIGNL4 Alerting
+        if: ${{ failure() }}
+        uses: signl4/signl4-action-alert@v1.1
+        with:
+          team-secret: ${{ secrets.SIGNL4_TEAM_SECRET }}
+          title: 'SIGNL4 Alert'
+          message: 'Alert from GitHub Actions.'
+          X-S4-Service: 'GitHub'
+          X-S4-Filtering: false
+          X-S4-ExternalID: 'A1'
+          X-S4-Status: 'new'
