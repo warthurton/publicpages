@@ -6,7 +6,6 @@
 * [SSAS](#SSAS)
 * [SSIS](#SSIS)
 * [Windows](#Windows)
-* [iOS](#iOS)
 
 ---
 
@@ -25,11 +24,8 @@
 ## Windows
 * [Automation documentation and links](Windows/win-automation-links)
 * [Batch File Tips](Windows/windows-batch)
-* [Change Network Type in Windows 10 (Private/Public)](Windows/change-network-type-private-public)
+* [Change Network Type in Windows 10/11 (Private/Public)](Windows/change-network-type-private-public)
 * [Stardock Multiplicity](Windows/stardock-multiplicity)
-
-## iOS
-* [Disable notifications for iOS Shortcuts](iOS/disable-shortcut-notifications)
 
 ## About
 
@@ -56,4 +52,4 @@ details.
 
 &copy; 2026 Wayne Arthurton
 
-_9 TILs and counting..._
+_8 TILs and counting..._
